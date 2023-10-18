@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:Teste;
+    src: url(fontes/Storm\ Gust.otf) format(opentype), url(fontes/Storm\ Gust.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Teste', Courier, monospace;
+    font-size: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}

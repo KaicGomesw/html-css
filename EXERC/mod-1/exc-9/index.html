@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagen Dinamica</h1>
+    <picture>
+        <source media="(min-width:1050px )" srcset="imagens/foto-g.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-p.png" alt="foto-p">
+    </picture>
+    <hr>
+    <h1>Audio</h1>
+    <audio src="auio/happy-mistake.mp3"  controls ></audio>
+    <audio controls>
+        <source src="auio/guanacast-33.mp3" type="audio/mpeg" >
+    </audio>
+    <hr>
+    <h1>Videos Localmente</h1>
+    <video src="videos/video.mp4" width="720" controls> </video>
+    
+    <video width="228" autoplay loop >
+        <source src="videos/video2.mp4" type="video/mp4" >
+    </video>
+    <hr>
+    <h1>Videos Não Localmente</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QNKcM-HVfIA?si=R2Ko69AHUaKAdZe4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
